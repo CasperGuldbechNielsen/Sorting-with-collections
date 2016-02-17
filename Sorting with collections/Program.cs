@@ -28,7 +28,7 @@ namespace Sorting_with_collections
 
             Console.WriteLine("\n===============\n");
 
-            Console.WriteLine("Sort by registration number");
+            Console.WriteLine("Sort by registration number:");
 
             foreach (var car in cars)
             {
