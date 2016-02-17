@@ -23,12 +23,12 @@ namespace Sorting_with_collections
                 Console.WriteLine(car.ToString());
             }
 
-            // Do a standard sort
+            // Do a standard sort (on registration number)
             cars.Sort();
 
             Console.WriteLine("\n===============\n");
 
-            Console.WriteLine("Sort():");
+            Console.WriteLine("Sort by registration number");
 
             foreach (var car in cars)
             {
